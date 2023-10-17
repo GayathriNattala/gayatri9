@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>DEMO  OF HTML AND REACT</title>
+</head>
+<body>
+    <div id="root">
+       <h1>REACT SAMPLE EXAMPLE</h1> 
+       <p>React is a javascript framework</p>
+    </div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+        //var hOne=document.createElement("h1");
+       // hOne.innerHTML="REACT learn";
+       // var rootElement=document.getElementById("root");
+       // rootElement.appendChild(hOne);
+       // rootElement.append(hOne);
+     var reactHeadOne=React.createElement("h1",{},"HEAD Content");
+     var pElement= React.createElement("i",{},"HELLO WORLD");
+
+     var rootElement=document.getElementById("root");
+     var rootCont=ReactDOM.createRoot(rootElement);
+     rootCont.render(reactHeadOne);
+
+     rootCont.render(pElement);
+
+    </script>
+    </body>
+    </html>
+
+        
