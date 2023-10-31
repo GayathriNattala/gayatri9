@@ -8,6 +8,7 @@ body{
     justify-content: space-between;
     border: 1px solid;
     align-items: center;
+    flex-wrap: wrap;
 }
 .logoheader{
     width: 100%;
@@ -41,6 +42,7 @@ li{
     padding:50px;
     color:black;
     background-color:bisque;
+    flex-wrap: wrap;
 }
 
 .card1:hover{
